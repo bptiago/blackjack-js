@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: rgb(247, 247, 247);
+}
+
+h1 {
+    color: rgb(220, 78, 56);
+}
+
+.main-section {
+    margin: auto;
+    margin-top: 5rem;
+    width: 50%;
+    background: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.game-features {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-buttons button {
+    border: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.game-buttons button:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+.btn-call:active {
+    background-color: rgb(146, 255, 189);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.btn-hold:active {
+    background-color: rgb(160, 210, 253);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.btn-reset:active {
+    background-color: rgb(253, 160, 160);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.about-container {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.main-section h2 {
+    text-align: center;
+    padding: 1rem;
+    color: rgb(220, 78, 56);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-links img {
+    height: 30px;
+    padding-right: 5px;
+}
+
